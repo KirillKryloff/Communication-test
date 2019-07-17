@@ -1,5 +1,4 @@
 class Result
-
   def initialize
     result_path = "#{__dir__}/../data/results.txt"
     @results = File.readlines(result_path, chomp: true)
