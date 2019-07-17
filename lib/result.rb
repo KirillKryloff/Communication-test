@@ -19,7 +19,7 @@ class Result
       @results[2]
     when 25..29
       @results[1]
-    when 30..31
+    when 30..32
       @results[0]
     end
   end
